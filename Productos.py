@@ -63,10 +63,7 @@ class Product:
         else:
             print('Name and price is requiere')
         self.get_products()
-            
-        
-        
-            
+     
 if __name__=='__main__':
     window= Tk()
     application=Product(window)
